@@ -10,15 +10,7 @@ const config = {
     "Everything in your neighbourhood in one place!",
   sideBarInfo: ["ShopName", "Pincode", "Description", "Tags"],
   popupInfo: ["ShopName"],
-  filters: [
-  zoom: 12,
-  title: "City Dashboard",
-  description:
-    "Everything in your neighbourhood in one place for the city of Chennai!",
-  sideBarInfo: ["ShopName", "Pincode", "Description", "Tags"],
-  popupInfo: ["ShopName"],
-  filters: [
-    
+  filters: [ 
     {
       type: "dropdown",
       title: "Category: ",
