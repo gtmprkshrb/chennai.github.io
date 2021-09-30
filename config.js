@@ -2,7 +2,7 @@ const config = {
   style: "mapbox://styles/mapbox/light-v10",
   accessToken:
     "pk.eyJ1IjoiZ3RtcHJrc2hyYiIsImEiOiJjamZ0bXBqZnMxd3E5MnduejVjdGpuN2R4In0.vvrRpEdZWNwaKUO6vmgRHw",
-  CSV: "https://docs.google.com/spreadsheets/d/1kedeOy2odnXSsTHE4_qD4boPsZ2RROXc/gviz/tq?tqx=out:csv&sheet=data",
+  CSV: "https://docs.google.com/spreadsheets/d/1vo0Lh0x8VkqB9jlZYpPHptJiuLx9NJzoaAqAV0WpOEU/gviz/tq?tqx=out:csv&sheet=data",
   center: [80.0689245, 13.0474878],
   zoom: 10,
   title: "City Dashboard",
@@ -27,17 +27,17 @@ const config = {
       columnHeader: "SubCategory",
       listItems: [
         "Others",
-        "Defence Hospitals",
-        "SDH/CHC",
-        "Corporators",
-        "MLA",
-        "Waste",
+        "Rations-Asked",
+        "Rations-Given",
+        "Verified",
+        "Food – Asked",
+        "Housing",
         "Citizen Services",
         "Electricity",
         "Campaigns",
         "Issue Reported",
         "PHCs",
-        "Volunteers",
+        "Volunteer",
         "AQM"
       ],
     }
