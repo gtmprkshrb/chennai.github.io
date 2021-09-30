@@ -2,7 +2,7 @@ const config = {
   style: "mapbox://styles/mapbox/light-v10",
   accessToken:
     "pk.eyJ1IjoiZ3RtcHJrc2hyYiIsImEiOiJjamZ0bXBqZnMxd3E5MnduejVjdGpuN2R4In0.vvrRpEdZWNwaKUO6vmgRHw",
-  CSV: "https://docs.google.com/spreadsheets/d/1pKH0EdwDYOnSYtzLLrAtVam0YgyaObb-eYyNXnfmRmY/gviz/tq?tqx=out:csv&sheet=data",
+  CSV: "https://docs.google.com/spreadsheets/d/1vo0Lh0x8VkqB9jlZYpPHptJiuLx9NJzoaAqAV0WpOEU/gviz/tq?tqx=out:csv&sheet=data",
   center: [80.0689243,13.0478223],
   zoom: 10,
   title: "City Dashboard",
