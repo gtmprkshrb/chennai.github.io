@@ -470,7 +470,6 @@ map.on("load", function () {
 
         let color1data=JSON.parse(JSON.stringify(data));
         color1data["features"] = color1data["features"].filter((color1data) => color1data["properties"].Category == "Govt Services");
-        color1data["features"] = color1data["features"].filter((color1data) => color1data["properties"].Category == "Help Locations");
         console.log(color1data);
 
         geojsonData = data;
@@ -485,12 +484,6 @@ map.on("load", function () {
 
         filterData=JSON.parse(JSON.stringify(data));
         filterData["features"] = filterData["features"].filter((filterData) => filterData["properties"].Category === "filterData");
-        color2data["features"] = color2data["features"].filter((color2data)=> color2data["properties"].Category == "Local Governance");
-        console.log(color2data);
-
-
-        filterData=JSON.parse(JSON.stringify(data));
-        filterData["features"] = filterData["features"].filter((filterData) => filterData["properties"].SubCategory === "filterData");
         console.log(filterData);
         
         
@@ -585,9 +578,6 @@ map.on("load", function () {
     });
 
     map.on("mouseleave", "locationData2", function () {
-      map.getCanvas().style.cursor = "";
-    });
-    map.on("mouseleave", "locationData1", function () {
       map.getCanvas().style.cursor = "";
     });
     buildLocationList(geojsonData);
