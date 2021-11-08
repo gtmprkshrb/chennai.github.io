@@ -38,7 +38,9 @@ const config = {
         "Issue Reported",
         "PHCs",
         "Volunteer",
-        "AQM"
+        "AQM",
+        "Flooding",
+        "Not_Flooding"
       ],
     }
   ],
