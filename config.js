@@ -17,7 +17,6 @@ const config = {
       title: "Category: ",
       columnHeader: "Category",
       listItems: [
-        "Govt Services",
         "Environment-Civic Data"
       ],
     },
@@ -26,19 +25,6 @@ const config = {
       title: "Sub Category: ",
       columnHeader: "SubCategory",
       listItems: [
-        "Others",
-        "Rations-Asked",
-        "Rations-Given",
-        "Verified",
-        "Food – Asked",
-        "Housing",
-        "Citizen Services",
-        "Electricity",
-        "Campaigns",
-        "Issue Reported",
-        "PHCs",
-        "Volunteer",
-        "AQM",
         "Flooding",
         "Not_Flooding"
       ],
