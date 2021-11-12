@@ -9,7 +9,7 @@ const config = {
   description:
     "Everything in your neighbourhood in one place for the city of Chennai! Ward level analytics is coming soon",
   sideBarInfo: ["ShopName", "Description"],
-  popupInfo: ["ShopName"],
+  popupInfo: ["Description"],
   filters: [
 
     {
