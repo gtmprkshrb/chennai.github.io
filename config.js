@@ -28,7 +28,7 @@ const config = {
       listItems: [
         "Flooding",
         "Not_Flooding",
-        "COVID_Testing"
+        "COVID_Vaccination"
       ],
     }
   ],
