@@ -17,7 +17,8 @@ const config = {
       title: "Category: ",
       columnHeader: "Category",
       listItems: [
-        "Environment-Civic Data"
+        "Environment-Civic Data",
+        "Civic Infrastructure"
       ],
     },
     {
@@ -26,7 +27,8 @@ const config = {
       columnHeader: "SubCategory",
       listItems: [
         "Flooding",
-        "Not_Flooding"
+        "Not_Flooding",
+        "COVID_Testing"
       ],
     }
   ],
