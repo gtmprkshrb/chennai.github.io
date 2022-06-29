@@ -12,15 +12,15 @@ const config = {
   popupInfo: ["Description"],
   filters: [
 
-    {
-      type: "dropdown",
-      title: "Category: ",
-      columnHeader: "Category",
-      listItems: [
-        "Environment-Civic Data",
-        "Civic Infrastructure"
-      ],
-    },
+    // {
+    //   type: "dropdown",
+    //   title: "Category: ",
+    //   columnHeader: "Category",
+    //   listItems: [
+    //     "Environment-Civic Data",
+    //     "Civic Infrastructure"
+    //   ],
+    // },
     {
       type: "dropdown",
       title: "Sub Category: ",
