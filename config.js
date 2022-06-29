@@ -28,7 +28,8 @@ const config = {
       listItems: [
         "Flooding",
         "Not_Flooding",
-        "COVID_Vaccination"
+        "COVID_Vaccination",
+        "AirQuality"
       ],
     }
   ],
